@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<link rel="stylesheet" href="yoga.css">
+
+
+<head>
+  <title>Bind Mind :: Classes</title>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+  <script src="scripty.js"></script>
+  <script type="text/javascript" src="classesInfo.json"></script>
+
+</head>
+
+
+<header>
+  <h1>Bind Mind Studio</h1>
+</header>
+
+<nav>
+  <b> <a href = "index.html">Home</a> &nbsp; <a href = "classes.html">Classes</a> &nbsp; <a href = "schedule.html">Schedule</a> &nbsp; <a href = "contact.html">Contact</a> &nbsp; </b>
+</nav>
+<div id="wrapper">
+<main>
+
+  <div id="hero">
+    <img src="yogamat.jpg" alt="Yoga Mat">
+  </div>
+
+  <h2>Yoga Classes</h2>
+  <hr>
+
+  <div>
+      <label>Enter the time you can give for yoga per week:</label>
+      <input placeholder="hours/week" type="number" id="hours"></input>
+      <button onclick="getClasses();">Search</button>
+    <br>
+    <div id="classesList">
+
+    </div>
+  </div>
+  <br>
+</div>
+
+<footer>
+    Copyright &copy 2020 Bind Mind<br>
+    <a href = "mailto:pala@umd.edu">pala@umd.edu</a>
+</footer>
+
+
+</main>
